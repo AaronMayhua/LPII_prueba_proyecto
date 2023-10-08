@@ -16,7 +16,7 @@ public class AdministradoController {
 	@Autowired
 	public AdministradoService service;
 	
-	@GetMapping(value = "/verAdmi")
+	@GetMapping(value = "/verAdmi")/*Se pone este nomnbre en el local hots es la ruta*/
 	public String ver() {
 		return "RegistroAdmi";
 	}

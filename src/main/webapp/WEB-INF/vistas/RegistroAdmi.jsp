@@ -168,11 +168,11 @@ $(document).ready(function() {
                     selector: "#id_telefono",
                     validators:{
                         notEmpty: {
-                             message: 'El dni es obligatorio'
+                             message: 'El numero de celular es obligatorio'
                         },
                         regexp: {
-                            regexp: /^[0-9]{8}$/,
-                            message: 'el dni es 8 dígitos'
+                            regexp: /^[0-9]{9}$/,
+                            message: 'el numero es 9 dígitos'
                         }
                     }
                 },
